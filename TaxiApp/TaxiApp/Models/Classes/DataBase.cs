@@ -5,9 +5,9 @@ using System.Web;
 
 namespace TaxiApp.Models.Classes
 {
-	public class DataBase
+	public static class DataBase
 	{
-		public Dictionary<string, Korisnik> Korisnici = new Dictionary<string, Korisnik>()
+		public static Dictionary<string, Korisnik> Korisnici = new Dictionary<string, Korisnik>()
 		{
 			{ "client1", new Musterija("client1", "12345", "Petar", "Petrovic", "m", "01010203421", "55214214", "test@test.com") },
 			{ "vozac1", new Vozac("vozac1", "12345", "Marina", "Maric", "z", "214421421421", "241234", "mmm@ttt.com", new Automobil("vozac1", 2015, "NS-422-AB", 24, TipAutomobila.PUTNICKI)) },
