@@ -168,6 +168,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\Users.txt" />
     <Content Include="Content\assets\bootstrap\css\bootstrap.min.css" />
     <Content Include="Content\assets\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\assets\bootstrap\js\bootstrap.min.js" />
@@ -228,10 +229,13 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\RegisterError.cshtml" />
+    <Content Include="Views\Account\LoggedDispecer.cshtml" />
+    <Content Include="Views\Account\LoggedVozac.cshtml" />
+    <Content Include="Views\Account\LoggedMusterija.cshtml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

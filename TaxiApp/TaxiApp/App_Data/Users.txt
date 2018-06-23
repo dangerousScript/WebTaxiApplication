@@ -1,0 +1,4 @@
+﻿username|pass|wadawdawd|wdawdawd|MUSKI|42412412|42142412|wdwawd@wdaadw.com|musterija|[]
+stefan|12345|wdawdaw|wdaawdawaw|MUSKI|124142|241412|waawd@wddaw.com|vozac|[]
+disp1|12345|wdawdaw|wdaawdawaw|MUSKI|124142|241412|waawd@wddaw.com|dispecer|[]
+

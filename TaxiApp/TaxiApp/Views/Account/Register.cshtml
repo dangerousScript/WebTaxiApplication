@@ -12,9 +12,15 @@
     @Html.AntiForgeryToken()
     
     <div class="form-horizontal">
-        <h4>MusterijaModel</h4>
+        <h4>Registracija</h4>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @if (ViewBag.Message != null)
+        {
+            <div class="form-group">
+                <div class="col-md-10">@ViewBag.Message</div>
+            </div>
+        }
         <div class="form-group">
             @Html.LabelFor(model => model.KorisnickoIme, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
@@ -96,7 +102,7 @@
 }
 
 <div>
-    @Html.ActionLink("Already have an account?", "Login", "Account")
+    @Html.ActionLink("Vec imate nalog?", "Login", "Account")
 </div>
 
 @section Scripts {
