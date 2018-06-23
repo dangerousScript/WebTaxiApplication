@@ -10,6 +10,7 @@ namespace TaxiApp.Models
 	public class MusterijaModel
 	{
 		[Required(ErrorMessage = "Korisnicko ime je obavezno.")]
+		[Display(Name = "Korisnicko ime")]
 		public string KorisnickoIme { get; set; }
 
 		[Required(ErrorMessage = "Lozinka je obavezna.")]
@@ -19,6 +20,7 @@ namespace TaxiApp.Models
 		[Required(ErrorMessage = "Potvrdite lozinku koju ste uneli.")]
 		[StringLength(20, ErrorMessage ="Lozinka mora biti najmanje {2} dugacka.", MinimumLength = 3)]
 		[DataType(DataType.Password)]
+		[Display(Name = "Potvrda lozinke")]
 		public string PotvrdaLozinke { get; set; }
 
 		[Required(ErrorMessage = "Ime je obavezno.")]
@@ -34,6 +36,7 @@ namespace TaxiApp.Models
 		public string JMBG { get; set; }
 
 		[Required(ErrorMessage = "Kontakt telefon je obavezan.")]
+		[Display(Name = "Kontakt telefon")]
 		public string KontaktTelefon { get; set; }
 
 		[Required(ErrorMessage = "Email je obavezan.")]
